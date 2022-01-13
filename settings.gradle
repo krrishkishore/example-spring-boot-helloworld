@@ -1,10 +1,6 @@
 pluginManagement {
     repositories {
-        maven {
-            url 'http://localhost:8081/repository/gradle-plugin/'
-        }
-        maven {
-            url 'http://localhost:8081/repository/maven-central/'
-        }
+        maven { url = uri('http://localhost:8081/repository/gradle-plugin/') }
+        maven { url = uri('http://localhost:8081/repository/maven-central/') }
     }
 }
