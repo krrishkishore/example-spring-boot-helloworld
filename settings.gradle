@@ -2,6 +2,5 @@ pluginManagement {
     repositories {
         maven { url = uri('http://10.33.235.98:8081/repository/gradle-plugin/') }
         maven { url = uri('http://10.33.235.98:8081/repository/maven-central/') }
-        maven { url = uri('http://10.33.235.98:8081/repository/jcenter-plugins/') }
     }
 }
